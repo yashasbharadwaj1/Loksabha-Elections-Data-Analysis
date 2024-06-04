@@ -10,6 +10,9 @@ they can be seen in datasets folders
 Approach:- 
 
 Data Ingestion:- 
+![data factory pipeline](./screenshots/data-ingestion.PNG) 
+
 
 Data Storage:-
+![Data lake gen 2](./screenshots/storage-container.PNG) 
  
