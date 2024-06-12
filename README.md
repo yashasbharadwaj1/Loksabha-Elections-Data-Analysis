@@ -54,6 +54,6 @@ The transformed data is stored in Azure Data Lake Storage Gen2
 The analysis results are visualized using Power BI, providing interactive dashboards and reports for better understanding and insights.
 
 
-- [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjlkZGQ2NTUtOWI4Yy00ZWZkLThhNDAtYzVhMTBiODc5NmRmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+- [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/74bc4e49-0a66-49a9-b713-c6e78a176601/ReportSection3efa0489322ce65b166b?experience=power-bi)
 
 
