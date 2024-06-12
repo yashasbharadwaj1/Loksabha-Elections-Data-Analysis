@@ -9,10 +9,16 @@ they can be seen in datasets folders
 
 Approach:- 
 
+Architecture :
+![architecture](./screenshots/lokasabha-etl-azure.drawio.png) 
+
 Data Ingestion:- 
 ![data factory pipeline](./screenshots/data-ingestion.PNG) 
 
 
-Data Storage:-
+Raw Data Storage:-
 ![Data lake gen 2](./screenshots/storage-container.PNG) 
  
+
+Data Transformation :-  
+[Transformation Plan](./dims_facts_spec_plan)

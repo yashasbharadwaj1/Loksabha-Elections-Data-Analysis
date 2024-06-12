@@ -1,0 +1,65 @@
+
+dim_candidate_2014 
+- candidate_id (Primary Key)
+- candidate (string)
+-  sex(string)
+- age(integer)
+- category (string) 
+
+dim_candidate_2019 
+- candidate_id (Primary Key)
+- candidate (string)
+-  sex(string)
+- age(integer)
+- category (string)
+
+dim_party_2014
+- party_id (Primary key)
+- party(string)
+- party_symbol(string) 
+
+dim_party_2019
+- party_id (Primary key)
+- party(string)
+- party_symbol(string) 
+
+
+dim_states 
+- state_id (Primary Key)
+- state_name (String)
+- abbreviation (String)
+
+fact_2014
+- state_id: Foriegn key to dim_states_codes state_id  
+
+- candidate_id: Foriegn key to dim_candidate candidate_id
+
+- party_id :Foriegn key to dim_party party_id
+
+- pc_name: String
+
+- general_votes: big integer
+
+- postal_votes: big inetger
+
+- total_votes: big integer
+
+- total_electors: big integer 
+
+
+fact_2019
+- state_id: Foriegn key to dim_states_codes state_id  
+
+- candidate_id: Foriegn key to dim_candidate candidate_id
+
+- party_id :Foriegn key to dim_party party_id
+
+- pc_name: String
+
+- general_votes: big integer
+
+- postal_votes: big inetger
+
+- total_votes: big integer
+
+- total_electors: big integer
