@@ -7,9 +7,9 @@ Dataset :-
 2014 results csv ,2019 results csv ,state and its codes csv 
 they can be seen in datasets folders 
 
-Approach:- 
 
-Architecture :
+
+Architecture :-
 ![architecture](./screenshots/loksabha-etl-azure.png) 
 
 Data Ingestion:- 
@@ -21,4 +21,6 @@ Raw Data Storage:-
  
 
 Data Transformation :-  
-[Transformation Plan](./dims_facts_spec_plan)
+[Transformation Plan](./dims_facts_spec_plan) 
+
+[Pyspark Code](./loksabha-elections-DE.ipynb) 
