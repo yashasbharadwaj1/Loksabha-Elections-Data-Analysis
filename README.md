@@ -1,26 +1,47 @@
-Election Data Analysis:- 
+# Election Data Analysis Project
 
-![Problem Statement](./screenshots/Challenge.PNG) 
+## Overview
 
-Dataset :- 
-3 csv files 
-2014 results csv ,2019 results csv ,state and its codes csv 
-they can be seen in datasets folders 
+This project focuses on analyzing the Indian general election results for the years 2014 and 2019. The analysis includes data ingestion, storage, transformation, and visualization to derive meaningful insights from the election data.
 
+## Datasets
 
-Data Ingestion:- 
-![data factory pipeline](./screenshots/data-ingestion.PNG) 
+The project utilizes the following datasets:
 
+1. **2014 Election Results:** Contains the election results for the year 2014.
+2. **2019 Election Results:** Contains the election results for the year 2019.
+3. **State Codes:** Contains the mapping of state names to their respective codes.
 
-Raw Data Storage:-
-![Data lake gen 2](./screenshots/storage-container.PNG) 
- 
+## Data Ingestion
 
-Data Transformation :-  
-[Transformation Plan](./dims_facts_spec_plan) 
+The data ingestion process is automated using Azure Data Factory. The pipeline reads the CSV files, performs necessary transformations, and stores the data in a structured format.
 
-[Pyspark Code](./loksabha-elections-DE.ipynb) 
+![Data Factory Pipeline](./screenshots/data-ingestion.PNG)
 
-Data Visualization:- 
-https://app.powerbi.com/view?r=eyJrIjoiZjlkZGQ2NTUtOWI4Yy00ZWZkLThhNDAtYzVhMTBiODc5NmRmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9 
+## Raw Data Storage
+
+The raw data is stored in Azure Data Lake Storage Gen2, providing a scalable and secure environment for data storage.
+
+![Data Lake Gen2 Storage](./screenshots/storage-container.PNG)
+
+## Data Transformation
+
+The transformation of raw data is planned and executed using PySpark. The transformation process includes cleaning the data, creating dimensions and fact tables, and preparing the data for analysis.
+
+### Transformation Plan
+
+For detailed specifications on the data transformation plan, refer to the [Transformation Plan](./dims_facts_spec_plan).
+
+### PySpark Code
+
+The data transformation is implemented using PySpark. The code can be found in the following notebook:
+
+- [PySpark Transformation Code](./loksabha-elections-DE.ipynb)
+
+## Data Visualization
+
+The analysis results are visualized using Power BI, providing interactive dashboards and reports for better understanding and insights.
+
+- [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjlkZGQ2NTUtOWI4Yy00ZWZkLThhNDAtYzVhMTBiODc5NmRmIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
 
