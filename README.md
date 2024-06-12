@@ -1,5 +1,8 @@
 # Election Data Analysis Project
 
+## Video Explanation 
+https://www.youtube.com/watch?v=v1smoI5educ
+
 ## Overview
 
 This project focuses on analyzing the Indian general election results for the years 2014 and 2019. The analysis includes data ingestion, storage, transformation, and visualization to derive meaningful insights from the election data.
