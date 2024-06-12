@@ -10,7 +10,7 @@ they can be seen in datasets folders
 Approach:- 
 
 Architecture :
-![architecture](./screenshots/lokasabha-etl-azure.png) 
+![architecture](./screenshots/loksabha-etl-azure.png) 
 
 Data Ingestion:- 
 ![data factory pipeline](./screenshots/data-ingestion.PNG) 
