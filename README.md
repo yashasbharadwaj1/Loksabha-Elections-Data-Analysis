@@ -15,6 +15,7 @@ The project utilizes the following datasets:
 ## Architecture
 ![etl](https://github.com/yashasbharadwaj1/Loksabha-Elections-Data-Analysis/assets/71028991/cddc96d2-b54b-46dd-b7fd-ed0bb0fd0b8e)
 
+I have implemented this project by buiding an ETL pipeline on Azure  
 
 ## Data Ingestion
 
