@@ -38,6 +38,11 @@ The data transformation is implemented using PySpark. The code can be found in t
 
 - [PySpark Transformation Code](./loksabha-elections-DE.ipynb)
 
+## Storing Dimension and fact tables  
+The transformed data is stored in Azure Data Lake Storage Gen2 
+
+
+
 ## Data Visualization
 
 The analysis results are visualized using Power BI, providing interactive dashboards and reports for better understanding and insights.
