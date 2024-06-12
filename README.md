@@ -12,6 +12,10 @@ The project utilizes the following datasets:
 2. **2019 Election Results:** Contains the election results for the year 2019.
 3. **State Codes:** Contains the mapping of state names to their respective codes.
 
+## Architecture
+![etl](https://github.com/yashasbharadwaj1/Loksabha-Elections-Data-Analysis/assets/71028991/cddc96d2-b54b-46dd-b7fd-ed0bb0fd0b8e)
+
+
 ## Data Ingestion
 
 The data ingestion process is automated using Azure Data Factory. The pipeline reads the CSV files, performs necessary transformations, and stores the data in a structured format.
@@ -40,6 +44,7 @@ The data transformation is implemented using PySpark. The code can be found in t
 
 ## Storing Dimension and fact tables  
 The transformed data is stored in Azure Data Lake Storage Gen2 
+<img width="939" alt="analytical-results" src="https://github.com/yashasbharadwaj1/Loksabha-Elections-Data-Analysis/assets/71028991/968c2a42-a334-46a5-9509-188c0c208913">
 
 
 
