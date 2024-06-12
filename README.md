@@ -8,10 +8,6 @@ Dataset :-
 they can be seen in datasets folders 
 
 
-
-Architecture :-
-![architecture](./screenshots/etl.png)
-
 Data Ingestion:- 
 ![data factory pipeline](./screenshots/data-ingestion.PNG) 
 
@@ -24,3 +20,4 @@ Data Transformation :-
 [Transformation Plan](./dims_facts_spec_plan) 
 
 [Pyspark Code](./loksabha-elections-DE.ipynb) 
+
